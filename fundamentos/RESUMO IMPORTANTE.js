@@ -1,0 +1,4 @@
+/*
+[] = Listas/arrays
+{} = objeto
+*/
