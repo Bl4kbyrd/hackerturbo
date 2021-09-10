@@ -1,0 +1,69 @@
+
+<html>
+    <head>
+        <br>
+        <div align="center">
+        <title>Rolador</title>
+    </head>
+
+    <body>
+
+ <div align="center">
+    <h2>Rolador de dados</h2>
+    </div>
+
+<br>
+<br>
+<br>
+<br>
+    
+    <div align= "center">
+
+<div>
+    <h4>Quantidade de dados: <input type=number name=Dado id=Dado value="1"></h4>
+</div>
+
+<div>
+    <h4>Quantidade de lados: <input type=number name=Lado id=Lado value="2"></h4>
+</div>
+
+
+
+<br>
+
+<button onclick="Times()"> Rolar </button>
+
+
+
+<script>
+let ElementoDado, ElementoLado
+
+function Roll($sides){  
+     ElementoLado = document.getElementById("Lado").value
+   return Math.floor (Math.random() * $sides + 1);
+};
+
+function Times($number){
+    ElementoDado = document.getElementById("Dado").value
+    $dados = ElementoDado;
+   $arr = [''];
+
+    for($i = 1; $i <= $number; $i++){
+       $arr.push(Roll($dados));
+    }
+
+    <span id="saas">ElementoDado</span>
+    return console.log($arr.join(' '));
+};
+
+
+function test(saas){
+
+};
+</script>
+
+
+
+</body>
+</html>
+
