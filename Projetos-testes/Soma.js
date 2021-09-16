@@ -1,6 +1,6 @@
 // soma todos os múltiplo de 3 e 5
 
-//Criar função somar que retorna a
+//Criar função somar que retorna a soma de todos os multiplos de 3 e 5 até (limite)
 // armazenar múltiplos de 3
 // armazenar múltiplos de 5
 // somar os dois
@@ -22,4 +22,4 @@ function somar(limite){
 
 }
 
-somar(55)
+somar(5)
